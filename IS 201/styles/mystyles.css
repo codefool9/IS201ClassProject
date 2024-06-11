@@ -1,0 +1,84 @@
+.centered-text {
+    text-align: center;
+}
+.center {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+h1 {
+  text-align: center; 
+  font-family: 'Brush Script MT', cursive; 
+  font-size: 10em;
+}
+body {
+  background-image: url("sunset.jpeg");
+  background-color: #dce8c8;
+  /* Make room for footer */
+  padding-bottom: 150px;
+  height: 100%; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+
+h1 {
+  background-color: #566fb8; color:white;
+}
+ol {
+  padding-left: 10%;
+  font-size: 3em; 
+  color:peru;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div {
+  text-align: center;
+}
+.icon {
+  list-style-position: inside;
+  list-style-type: circle;
+}
+.box {
+  background-color: #DAB727;
+  width: 400px;
+  border-radius: 25px;
+}
+
+footer {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  box-shadow: 0 -2px 10px; rbga:(0,0,0,0.1);
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #566fb8;
+
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #111;
+}
